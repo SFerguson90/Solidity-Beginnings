@@ -7,7 +7,7 @@ contract DeferredEquityPlan {
     address payable employee; // bob
     bool active = true; // this employee is active at the start of the contract
 
-    // @TODO: Set the total shares and annual distribution
+    // Set the total shares and annual distribution
     // Your code here!
 
     uint start_time = now; // permanently store the time this contract was initialized
